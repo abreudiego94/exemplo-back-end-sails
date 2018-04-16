@@ -8,15 +8,7 @@ module.exports = {
            
         },
     },
-    exits: {
-
-        success: {
-
-        },
-
-
-    },
-
+   
 
     fn: async function (inputs, exits) {
         await Usuario.destroy({id: inputs.id});

@@ -44,10 +44,10 @@ module.exports.routes = {
   //  ╠═╣╠═╝║  ║╣ ║║║ ║║╠═╝║ ║║║║║ ║ ╚═╗
   //  ╩ ╩╩  ╩  ╚═╝╝╚╝═╩╝╩  ╚═╝╩╝╚╝ ╩ ╚═╝
 
-  'GET /api/usuarios':                           { action: 'user/list' },
-  'POST /api/usuarios':                           { action: 'user/create' },
-  'PUT /api/usuarios/:id':                           { action: 'user/update' },
-  'DELETE /api/usuarios/:id':                           { action: 'user/delete' },
+  'GET /api/usuarios': { action: 'user/list' },
+  'POST /api/usuarios': { action: 'user/create' },
+  'PUT /api/usuarios/:id': { action: 'user/update' },
+  'DELETE /api/usuarios/:id': { action: 'user/delete' },
 
   //  ╦ ╦╔═╗╔╗ ╦ ╦╔═╗╔═╗╦╔═╔═╗
   //  ║║║║╣ ╠╩╗╠═╣║ ║║ ║╠╩╗╚═╗
